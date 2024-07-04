@@ -1,4 +1,4 @@
-The idea of a web application is that it is a program running on a remote server.
+![imagem](https://github.com/DanielP33/TryHackMe/assets/145346859/0ffdb30e-d603-4aa3-983d-056d5e8733ed)The idea of a web application is that it is a program running on a remote server.
 
 Consider an online shopping application. The web application will read the data about the products and their details from a database server.
 A database is used to store information in an organized way.
@@ -57,3 +57,14 @@ This task will investigate a vulnerable website that uses Insecure Direct Object
 
 IDOR: "Insecure direct object references (IDOR) are a type of access control vulnerability that arises when an application uses user-supplied input to access objects directly. The term IDOR was popularized by its appearance in the OWASP 2007 Top Ten."
 
+For this lab we go into "Your Activity" the link would be "https://inventory-management.thm/activity?user_id=11"
+![imagem](https://github.com/DanielP33/TryHackMe/assets/145346859/02351c40-dcef-4c9c-a0ba-e4386be9323d)
+
+we wanna change the user_id until we get something different
+
+![imagem](https://github.com/DanielP33/TryHackMe/assets/145346859/0b8785fd-4056-46b5-9eb6-277edffa7079)
+
+
+We can now click rever to cause DAMAGE
+
+and the flag is "THM{IDOR_EXPLORED}"
