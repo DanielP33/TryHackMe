@@ -101,8 +101,14 @@ When you are tasked to run a penetration test against specific targets, as part 
 Shodan.io tries to connect to every device reachable online to build a search engine of connected “things” in contrast with a search engine for web pages. Once it gets a response, it collects all the information related to the service and saves it in the database to make it searchable. 
 
 "According to Shodan.io, what is the 2nd country in the world in terms of the number of publicly accessible Apache servers?"
+
 **ANSWER:** Germany
+
 Based on Shodan.io, what is the 3rd most common port used for Apache?
+
 **ANSWER:** 8080
+
 Based on Shodan.io, what is the 3rd most common port used for nginx?
+
 **ANSWER:** 
+
