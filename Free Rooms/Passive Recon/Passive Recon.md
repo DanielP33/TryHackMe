@@ -1,4 +1,8 @@
-# Task 1
+[Free Rooms](https://github.com/winterrdog/tryhackme-free-rooms)
+
+
+[Passive Recon](https://tryhackme.com/r/room/passiverecon)
+## Task 1
 What is WHOIS?
 
 WHOIS is a protocol used to query databases that store information about the registration of domain names on the internet. When you perform a WHOIS lookup, you retrieve details about a domain name, such as:
@@ -23,7 +27,7 @@ NSLOOKUP (Name Server Lookup) is another command-line tool used for querying DNS
     Look up the IP address associated with a domain name (or vice versa)
     Obtain specific DNS records (like A, MX, NS records)
     Perform reverse DNS lookups
-# Task 2
+## Task 2
 
 Reconnaissance (recon) can be defined as a preliminary survey to gather information about a target. It is the first step in The Unified Kill Chain to gain an initial foothold on a system. We divide reconnaissance into:
 
@@ -54,7 +58,7 @@ Examples of active reconnaissance activities include:
 
 "You happen to meet the IT administrator of the target company at a party. You try to use social engineering to get more information about their systems and network infrastructure. What kind of reconnaissance activity is this? (A for active, P for passive)"
 **ANSWER:** ``A``
-# Task 3
+## Task 3
 
 "When was TryHackMe.com registered?"
 **ANSWER:**
@@ -69,4 +73,4 @@ Examples of active reconnaissance activities include:
 
 **ANSWER:** ``Cloudflare.com``
 
-# Task 4
+## Task 4
