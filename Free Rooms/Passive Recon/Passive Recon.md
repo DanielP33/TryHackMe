@@ -47,24 +47,26 @@ Examples of active reconnaissance activities include:
     Entering company premises pretending to be a repairman.
 
 "You visit the Facebook page of the target company, hoping to get some of their employee names. What kind of reconnaissance activity is this? (A for active, P for passive)"
-**ANSWER:** P
+**ANSWER:** ``P``
 
 "You ping the IP address of the company webserver to check if ICMP traffic is blocked. What kind of reconnaissance activity is this? (A for active, P for passive)"
-**ANSWER:** A
+**ANSWER:** ``A``
 
 "You happen to meet the IT administrator of the target company at a party. You try to use social engineering to get more information about their systems and network infrastructure. What kind of reconnaissance activity is this? (A for active, P for passive)"
-**ANSWER:** A
+**ANSWER:** ``A``
 # Task 3
 
 "When was TryHackMe.com registered?"
-**ANSWER:** 20180705
+**ANSWER:**
+``20180705``
+
 (This one was stupid tbh..)
 
 "What is the registrar of TryHackMe.com?"
-**ANSWER:** Namecheap.com
+**ANSWER:** ``Namecheap.com``
 
 "Which company is TryHackMe.com using for name servers?"
 
-**ANSWER:** Cloudflare.com
+**ANSWER:** ``Cloudflare.com``
 
 # Task 4
