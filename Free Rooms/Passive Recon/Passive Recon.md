@@ -2,7 +2,7 @@
 
 
 [Passive Recon](https://tryhackme.com/r/room/passiverecon)
-## Task 1
+## Task 1 : Introduction
 What is WHOIS?
 
 WHOIS is a protocol used to query databases that store information about the registration of domain names on the internet. When you perform a WHOIS lookup, you retrieve details about a domain name, such as:
@@ -27,7 +27,7 @@ NSLOOKUP (Name Server Lookup) is another command-line tool used for querying DNS
     Look up the IP address associated with a domain name (or vice versa)
     Obtain specific DNS records (like A, MX, NS records)
     Perform reverse DNS lookups
-## Task 2
+## Task 2 : Passive Versus Active Recon
 
 Reconnaissance (recon) can be defined as a preliminary survey to gather information about a target. It is the first step in The Unified Kill Chain to gain an initial foothold on a system. We divide reconnaissance into:
 
@@ -58,7 +58,7 @@ Examples of active reconnaissance activities include:
 
 "You happen to meet the IT administrator of the target company at a party. You try to use social engineering to get more information about their systems and network infrastructure. What kind of reconnaissance activity is this? (A for active, P for passive)"
 **ANSWER:** ``A``
-## Task 3
+## Task 3 : Whois
 
 "When was TryHackMe.com registered?"
 **ANSWER:**
@@ -73,4 +73,24 @@ Examples of active reconnaissance activities include:
 
 **ANSWER:** ``Cloudflare.com``
 
-## Task 4
+## Task 4 : nslookup and dig
+
+![image](https://github.com/user-attachments/assets/f4ad79eb-aec2-4ed0-b5d5-e4423021ba22)
+
+``nslookup -type=A tryhackme.com 1.1.1.1``
+
+
+"Check the TXT records of thmlabs.com. What is the flag there?"
+``nslookup -type=txt thmlabs.com``
+
+**ANSWER:** ``THM{a5b83929888ed36acb0272971e438d78}``
+
+## Task 5 : Dns Dumpster
+
+DNS lookup tools, such as nslookup and dig, cannot find subdomains on their own. 
+
+One can use an online service that offers detailed answers to DNS queries, such as DNSDumpster. If we search DNSDumpster for tryhackme.com, we will discover the subdomain blog.tryhackme.com, which a typical DNS query cannot provide. In addition, DNSDumpster will return the collected DNS information in easy-to-read tables and a graph. DNSDumpster will also provide any collected information about listening servers.
+
+"Lookup tryhackme.com on DNSDumpster. What is one interesting subdomain that you would discover in addition to www and blog?"
+**ANSWER:** ``Remote``
+
